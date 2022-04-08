@@ -38,7 +38,7 @@ module.exports = function (app, myDataBase) {
         clientID: process.env.GITHUB_CLIENT_ID,
         clientSecret: process.env.GITHUB_CLIENT_SECRET,
         callbackURL:
-          "28e1345165344b613e580ca253e3d2e12758854f/auth/github/callback",
+          "https://boilerplate-advancedn.herokuapp.com/auth/github/callback",
       },
       function (accessToken, refreshToken, profile, cb) {
         console.log(profile);
